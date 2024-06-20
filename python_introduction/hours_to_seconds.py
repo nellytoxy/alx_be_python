@@ -1,4 +1,4 @@
-hours = 2 #length of a rectangle
-seconds = 60 * 60 # width of a rectangle 
-hours_to_seconds=hours * seconds
+hours = 2 
+# Where 1hour =3600 
+hours_to_seconds=hours * 3600
 print(hours, "hour(s) is", hours_to_seconds, "seconds")
