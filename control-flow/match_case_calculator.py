@@ -1,14 +1,14 @@
-num1 = float(input("enter first number \n"))
-num2 = float(input("enter second number \n"))
+num1 = float(input("Enter the first number \n"))
+num2 = float(input("enter second the number \n"))
 operation = input("addition, " "substraction, " "multiplication, " "division " "\n")
 match operation:
     case operation if operation == "addition":
         print("result is", num1 + num2)
-    case operation if operation == "substraction":
+    case operation if operation == "substract":
         print("result is", num1 - num2)
-    case operation if operation == "multiplication":
+    case operation if operation == "multiply":
         print("result is", num1 * num2)
-    case operation if operation == "division":
+    case operation if operation == "divide":
         print("result is", num1 / num2)
     case _:
-        print("Cannot divide by zero")
+        print("Cannot divide by zero.")
