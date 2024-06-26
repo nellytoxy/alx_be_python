@@ -1,5 +1,5 @@
-num1 = float(input("Enter the first number \n"))
-num2 = float(input("enter second the number \n"))
+num1 = int(input("Enter the first number\n"))
+num2 = int(input("enter second the number\n"))
 operation = input("addition, " "substraction, " "multiplication, " "division " "\n")
 match operation:
     case operation if operation == "addition":
