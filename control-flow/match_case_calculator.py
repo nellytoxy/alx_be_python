@@ -1,6 +1,6 @@
 num1 = int(input("Enter the first number: "))
-num2 = int(input("enter second the number\n"))
-operation = input("addition, " "substraction, " "multiplication, " "division " "\n")
+num2 = int(input("Enter the first number: "))
+operation = input("Choose the operation (+, -, *, /):")
 match operation:
     case operation if operation == "addition":
         print("result is", num1 + num2)
