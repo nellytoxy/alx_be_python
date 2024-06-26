@@ -1,12 +1,12 @@
-tomorrow = "warm"
-
-if tomorrow == "warm":
-    print("I'll go to the sea.")
-elif tomorrow == "very hot":
-    print("I'll go to the forest.")
-elif tomorrow == "snowy":
-    print("I'll build a snowman.")
-elif tomorrow == "rainy":
-    print("I'll stay home.")
-else:
-    print("Weather not recognized.")
+num1= float(input("enter first number "))
+num2= float(input("enter second number "))
+operation = input("+" "-" "/" "*")
+match num1, num2:
+    case _ if operation == "+":
+        print("addition is", num1 + num2)
+    case _ if operation == "-":
+        print("substraction is", num1 - num2)
+    case _ if operation == "*":
+        print("multiplication is", num1 * num2)
+    case _ if operation == "/":
+        print("division is", num1 / num2)
