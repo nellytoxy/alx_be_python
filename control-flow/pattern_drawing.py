@@ -5,8 +5,7 @@ while outer_count < num:
   inner_count = 0 
   for inner_count in range (num):
     # Inner loop repeats for each outer loop iteration
-    print("*" * num, end=" ")
+    print("*", end=" ")
     inner_count +=0
-    break
   print()  # Move to a new line after each outer loop iteration
   outer_count  +=1
