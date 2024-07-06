@@ -1,11 +1,12 @@
-def perform_operation(num1, num2, operation):
-    if operation == "+":
+def perform_operation(add, substract, multiply):
+    operation = "add,substract,multiply"
+    if operation == "add":
         return num1+num2
-    elif operation == "-":
+    elif operation == "substract":
         return num1 - num2
-    elif operation == "*":
+    elif operation == "multiply":
         return num1 * num2
-    elif operation == "/":
+    elif operation == "divide":
         return num1 / num2
     else:
         return "invalid operation"
