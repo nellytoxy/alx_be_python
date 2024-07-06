@@ -1,5 +1,5 @@
 def perform_operation(num1, num2, operation):
-    operation = "add,substract,multiply"
+    operation = "add,subtract,multiply"
     if operation == "add":
         return num1+num2
     elif operation == "substract":
