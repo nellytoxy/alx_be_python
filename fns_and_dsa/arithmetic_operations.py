@@ -1,4 +1,4 @@
-def perform_operation(add, substract, multiply):
+def perform_operation(num1, num2, operation):
     operation = "add,substract,multiply"
     if operation == "add":
         return num1+num2
