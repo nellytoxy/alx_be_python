@@ -14,7 +14,8 @@ user_input = int(input("Enter the temperature to convert: "))
 
 if user_input == "":
     print("invalid input")
-user_temp=input("Is this temperature in Celsius or Fahrenheit? (C/F) ").upper()
+
+user_temp=input("Is this temperature in Celsius or Fahrenheit? (C/F): ").upper()
 
 if user_temp == "F":
     convert_to_celsius(user_input)
