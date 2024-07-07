@@ -1,9 +1,9 @@
-def f_to_c (fahreinheit_to_celsius):
-    f_to_c_value = (fahreinheit_to_celsius - 32)* (5/9)
+def f_to_c (FAHRENHEIT_TO_CELSIUS_FACTOR):
+    f_to_c_value = (FAHRENHEIT_TO_CELSIUS_FACTOR - 32)* (5/9)
     return f_to_c_value
 
-def c_to_f (celsius_to_fahreinheit):
-    c_to_f_value =  (celsius_to_fahreinheit * (9/5)) + 32
+def c_to_f (CELSIUS_TO_FAHRENHEIT_FACTOR):
+    c_to_f_value =  (CELSIUS_TO_FAHRENHEIT_FACTOR * (9/5)) + 32
     return c_to_f_value
 
 
@@ -26,7 +26,7 @@ while True:
         
         print(temp_value," celsius is", f'{c_to_f(temp_value): 2f}', "degres celsius")
 
-    elif temp_value == 3:
+    elif user_temp == 3:
         print ("program as been closed")
         break
     else:
