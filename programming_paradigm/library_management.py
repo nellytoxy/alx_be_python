@@ -40,6 +40,6 @@ class Library:
     def list_available_books(self):
             books = [book.title for book in self._books if not book._is_checked_out]
             if books:
-                return books
+                print(books)
             else:
-                return False
+                print("no books available")
