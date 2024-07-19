@@ -16,6 +16,9 @@ class PrintBook(Book):
 class Library:
     def __init__(self):
         self.books = []
+    
+    def __str__(self) -> str:
+        pass
 
     def add_book(self, book):
         self.books.append(book)
