@@ -1,4 +1,3 @@
-
 import math
 
 # Base class Shape
@@ -8,12 +7,12 @@ class Shape:
 
 # Derived class Rectangle
 class Rectangle(Shape):
-    def __init__(self, width, height):
+    def __init__(self, width, length):
         self.width = width
-        self.height = height
+        self.length = length
     
     def area(self):
-        return self.width * self.height
+        return self.width * self.length
 
 # Derived class Circle
 class Circle(Shape):
